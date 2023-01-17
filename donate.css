@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all .22s linear;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.donate-header{
+    background-color: white;
+    box-shadow: rgba(0,0,0.09);
+     box-shadow: 10px 10px 25px rgba(0,0,0,0.2);
+    
+    z-index: 1000;
+    color: #192a56;
+    position: fixed;
+    width:100%;
+}
+.btn{
+    background-color:rgb(252, 48, 48);
+    color: #fefefe;
+    padding: 10px 25px;
+    border-radius: 15px;
+    transition: 0.2s;
+    margin: 0 5px;
+    border: none;
+    margin-top: 16px;
+}
+.btn a{
+    color: #fefefe;
+    font-weight: bold;
+}
+/*Humburger icon display for mobile ends here*/
+#humburger-icon{
+
+    display: none;
+    cursor: pointer;
+}
+#humburger-icon div{
+    width: 25px;
+    height: 3px;
+    background-color:#192a56 ;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.mobile-menu{
+    background-color: white;
+    margin-top: 20px;
+}
+.mobile-menu li{
+    margin-top: 50px;
+    list-style: none;
+    
+}
+.open .bar1{
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px );
+    transform: rotate(-45deg) translate(-6px, 6px);
+
+}
+.open .bar2{
+    opacity: 0;
+}
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px );
+    transform: rotate(45deg) translate(-6px, -8px);
+
+}
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+.mobile-menu a{
+    color: #192a56;
+    text-decoration: none;
+    font-weight: bold;
+}
+.open .mobile-menu .color{
+    color:#fefefe;
+}
+@media(max-width: 900px){
+    .mission-container{
+        flex-direction: column;
+        
+    }
+    .nav-menu{
+        display: none;
+    }
+    .mission{
+        text-align: center;
+      
+    }
+    .donate{
+        
+    }
+    #humburger-icon{
+        display: block;
+        z-index: 2000;
+        
+    }}
+/*Humburger icon display for mobile ends here*/
+/*THE HOME PAGE OF DONATE STARTS */
+.donate{
+    padding: 0 100px;
+    height: 100vh;
+
+}
+.donate-container{
+
+}
+
+.donate-container{
+    top: 10%;
+    
+
+}
+.details{
+    padding-top: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    color:#192a56;
+}
+.donate-container{
+    display: flex;
+}
+.open .bar1{
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px );
+    transform: rotate(-45deg) translate(-6px, 6px);
+
+}
+.open .bar2{
+    opacity: 0;
+}
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px );
+    transform: rotate(45deg) translate(-6px, -8px);
+
+}
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+@media (max-width) {
+    
+}
+
+/*DONATION PAGE*/
+.donation{
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+@media (max-width:780px) {
+.donation img{
+    width: 97px;
+}
+}
+
+/*DONATION PAGE*/

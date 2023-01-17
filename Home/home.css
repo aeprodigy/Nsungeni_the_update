@@ -1,0 +1,52 @@
+/*Humburger icon display for mobile ends here*/
+@media(max-width: 900px){
+    .mission-container{
+        flex-direction: column;
+        
+    }
+    .nav-menu{
+        display: none;
+    }
+    .mission{
+        text-align: center;
+      
+    }
+    .donate{
+        display: none;
+    }
+    #humburger-icon{
+        display: block;
+        z-index: 2000;
+        
+    }
+    .left .desc{
+    position: absolute;
+    top: 100px;
+    padding: 20px 10%;
+}
+    .left .paragraph{
+        top: 200px;
+    }
+    .home p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+    .home h1{
+    color: white;
+    font-size: 27px;
+    
+}
+.goals .values{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card{
+   margin: 10px;
+}
+
+    
+}
