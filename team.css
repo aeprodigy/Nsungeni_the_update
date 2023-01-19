@@ -88,6 +88,70 @@
 }
 
 }
+@media(max-width:380px){
+    .center{
+    color: #fefefe;
+    font-size: 1rem;
+    text-align: center;
+}
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+.team-content img{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.team{
+      padding-top: 320px;
+}
+
+}
+
+@media(max-width:350px){
+    .center{
+    color: #fefefe;
+    font-size: 1rem;
+    text-align: center;
+}
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+.team-content img{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.team{
+      padding-top: 850px;
+}
+
+.btm{
+   background: radial-gradient(#281c3e, #0f0518);
+    height: 100vh;
+}
+}
+
 /*################################################################################*/
 /*TEAM  SECTION  STYLES OF THE WEBSITE ENDS HERE*/
 .claim{
