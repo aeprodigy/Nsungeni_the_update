@@ -405,8 +405,8 @@ nav ul li a{
 /*DESCRIPTION STYLES STARTS FROM HERE*/
 /**###############################################################################*/
 .description{
-    background-color: #fefefe;
-    padding-top: 20px;
+    background-color: #fefefefe;
+    padding-top: 10px;
 }
 .description .cards{
     align-items: center;
@@ -503,6 +503,7 @@ nav ul li a{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
+    font-weight: 600;
 }
 .card{
     background-color: #fefefe;
