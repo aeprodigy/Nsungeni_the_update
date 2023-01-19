@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-     padding-top: 20px;
+     padding-top: 100px;
 }
 .team-content{
     width: 100%;
@@ -58,6 +58,9 @@
 }
 .box p{
     color: #fefefe;
+}
+.phone .hide{
+    display: none;
 }
 @media(max-width:500px){
     .center{
