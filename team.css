@@ -1,0 +1,91 @@
+/*TEAM  SECTION  STYLES OF THE WEBSITE STARTS HERE*/
+/*################################################################################*/
+
+.team{
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#281c3e, #0f0518);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     padding-top: 80px;
+}
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+.team-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.center{
+    color: #fefefe;
+    font-size: 4rem;
+    text-align: center;
+}
+.box{
+    padding: 16px;
+    background: #1b1229;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+.box h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #fefefe;
+    margin-bottom: 8px;
+}
+.box h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #b7b4bb;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.box p{
+    color: #fefefe;
+}
+@media(max-width:500px){
+    .center{
+    color: #fefefe;
+    font-size: 2rem;
+    text-align: center;
+}
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+.team-content img{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.team{
+      padding-top: 150px;
+}
+
+}
+/*################################################################################*/
+/*TEAM  SECTION  STYLES OF THE WEBSITE ENDS HERE*/
