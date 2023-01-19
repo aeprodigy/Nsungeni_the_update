@@ -62,7 +62,7 @@
 @media(max-width:500px){
     .center{
     color: #fefefe;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
 }
 .team-content{
@@ -74,7 +74,7 @@
     align-items: center;
     gap: 2rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     
 }
 .team-content img{
