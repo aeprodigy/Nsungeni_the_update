@@ -1,190 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,700;1,800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    transition: all .22s linear;
-    scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
-}
+/*TEAM  SECTION  STYLES OF THE WEBSITE STARTS HERE*/
+/*################################################################################*/
 
-.donate-header{
-    background-color: white;
-    box-shadow: rgba(0,0,0.09);
-     box-shadow: 10px 10px 25px rgba(0,0,0,0.2);
+.team{
     
-    z-index: 1000;
-    color: #192a56;
-    position: fixed;
-    width:100%;
-}
-.btn{
-    background-color:rgb(252, 48, 48);
-    color: #fefefe;
-    padding: 10px 25px;
-    border-radius: 15px;
-    transition: 0.2s;
-    margin: 0 5px;
-    border: none;
-    margin-top: 16px;
-}
-.btn a{
-    color: #fefefe;
-    font-weight: bold;
-}
-/*Humburger icon display for mobile ends here*/
-#humburger-icon{
-
-    display: none;
-    cursor: pointer;
-}
-#humburger-icon div{
-    width: 25px;
-    height: 3px;
-    background-color:#192a56 ;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-.mobile-menu{
-    background-color: white;
-    margin-top: 20px;
-}
-.mobile-menu li{
-    margin-top: 50px;
-    list-style: none;
-    
-}
-.open .bar1{
-    -webkit-transform: rotate(-45deg) translate(-6px, 6px );
-    transform: rotate(-45deg) translate(-6px, 6px);
-
-}
-.open .bar2{
-    opacity: 0;
-}
-.open .bar3 {
-    -webkit-transform: rotate(45deg) translate(-6px, -8px );
-    transform: rotate(45deg) translate(-6px, -8px);
-
-}
-.open .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-.mobile-menu{
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: calc(100vh - 50px);
+    position: relative;
     width: 100%;
-}
-.mobile-menu a{
-    color: #192a56;
-    text-decoration: none;
-    font-weight: bold;
-}
-.open .mobile-menu .color{
-    color:#fefefe;
-}
-@media(max-width: 900px){
-    .mission-container{
-        flex-direction: column;
-        
-    }
-    .nav-menu{
-        display: none;
-    }
-    .mission{
-        text-align: center;
-      
-    }
-    .donate{
-        
-    }
-    #humburger-icon{
-        display: block;
-        z-index: 2000;
-        
-    }}
-/*Humburger icon display for mobile ends here*/
-/*THE HOME PAGE OF DONATE STARTS */
-.donate{
-    padding: 0 100px;
     height: 100vh;
-    
-
-}
-.donate-container{
-
-}
-
-.donate-container{
-    top: 10%;
-    
-
-}
-.details{
-    padding-top: 200px;
-    position: absolute;
+    background: radial-gradient(#beb3d1, #7c7583);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-p{
-    color:#192a56;
-}
-.donate-container{
-    display: flex;
-}
-.open .bar1{
-    -webkit-transform: rotate(-45deg) translate(-6px, 6px );
-    transform: rotate(-45deg) translate(-6px, 6px);
-
-}
-.open .bar2{
-    opacity: 0;
-}
-.open .bar3 {
-    -webkit-transform: rotate(45deg) translate(-6px, -8px );
-    transform: rotate(45deg) translate(-6px, -8px);
-   
-
-}
-.open .mobile-menu {
-    display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+     padding-top: 100px;
 }
-.mobile-menu{
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: calc(100vh - 50px);
+.team-content{
     width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: px;
+   
 }
-@media (max-width) {
+.team-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.center{
+    color: #fefefe;
+    font-size: 4rem;
+    text-align: center;
+}
+.box{
+    padding: 16px;
+    background: #1b1229;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+.box h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #fefefe;
+    margin-bottom: 8px;
+}
+.box h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #b7b4bb;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.box p{
+    color: #fefefe;
+}
+.phone .hide{
+    display: none;
+}
+@media(max-width:1800px){
+    .btm{
+        display: none;
+    background: radial-gradient(#beb3d1, #7c7583);
+    height: 134vh;
+}
+}
+@media(max-width:500px){
+    .center{
+    color: #fefefe;
+    font-size: 1rem;
+    text-align: center;
+}
+    .btm{
+        display: none;
+    background: radial-gradient(#beb3d1, #7c7583);
+    height: 134vh;
+}
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 1rem;
     
 }
+.team-content img{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.team{
+      padding-top: 250px;
+}
 
-/*DONATION PAGE*/
-.donation{
-    padding-top: 200px;
-    display: flex;
-    align-items: center;
+}
+@media(max-width:380px){
+    .center{
+    color: #fefefe;
+    font-size: 1rem;
     text-align: center;
-    margin: auto;
 }
-@media (max-width:780px) {
-.donation img{
-    width: 97px;
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+.team-content img{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.team{
+      padding-top: 210px;
+}
+
+}
+
+@media(max-width:350px){
+    .center{
+    color: #fefefe;
+    font-size: 1rem;
+    text-align: center;
+}
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+.team-content img{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.team{
+      padding-top: 800px;
+}
+
+.btm{
+   background: radial-gradient(#281c3e, #0f0518);
+    height: 100vh;
 }
 }
 
-/*DONATION PAGE*/
+/*################################################################################*/
+/*TEAM  SECTION  STYLES OF THE WEBSITE ENDS HERE*/
+.claim{
+    background-color: #b7b4bb;
+    height: 100vh;
+
+}
+.btm{
+    background: #0f0518;
+    height: 34vh;
+}
