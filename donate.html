@@ -11,7 +11,8 @@
         <link rel = "icon" href = 
 "./log.png" 
         type = "image/x-icon">
-   
+   <script src="./index.js" defer></script>
+   <script src="./donat.js" defer></script>
     <link rel="stylesheet" href="donate.css">
 </head>
 <body>
@@ -61,21 +62,40 @@
               Donate to Support a child <br>
               Donate below
              </p>
-             <button class="bank">
+             <button class="bank" type="submit" onclick="openPopup()">
               Zanaco
              </button>
-             <button class="mobile-money mtn">
+             <button type="submit" class="mobile-money mtn">
               MTN
              </button>
-            <button class="mobile-money airtel">
+            <button type="submit" class="mobile-money airtel">
               Airtel
              </button>
+        </div>
+        <div class="popup" id="popup">
+          <img src="./404-tick.png" alt="">
+          <h2>Details</h2>
+          <p>Airtel: +260 760 121 676</p>
+          <p>Bank Acc:1822382400123</p>
+          <button type="button" onclick="closePopup()">Done</button>
         </div>
         </div>
     </section>
     
     
+<script>
+  //Popup
+let popup = document.getElementById("popup");
 
+function openPopup() {
+  popup.classList.add("open-popup");
+}
+
+function closePopup() {
+  popup.classList.remove("open-popup");
+}
+
+</script>
 
 </body>
 </html>
