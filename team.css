@@ -6,7 +6,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: radial-gradient(#beb3d1, #7c7583);
+    background: #fefefefe;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,15 +33,16 @@
     margin-bottom: 15px;
 }
 .center{
-    color: #fefefe;
+    color:#192a56;
     font-size: 4rem;
     text-align: center;
 }
 .box{
     padding: 16px;
-    background: #1b1229;
+    background: #192a56;
     border-radius: 15px;
     transition: all .38s ease;
+     box-shadow: 0 10px 5px rgba(0,0,0,0.2);
 }
 .box h3{
     font-size: 23px;
